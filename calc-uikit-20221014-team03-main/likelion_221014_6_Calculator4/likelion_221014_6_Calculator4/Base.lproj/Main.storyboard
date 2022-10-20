@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="likelion_221014_6_Calculator4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wt7-08-r9Y">
+                                <rect key="frame" x="25" y="413" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fET-nZ-hYH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkF-jL-Ef0">
+                                <rect key="frame" x="115" y="413" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P3v-c2-PFk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0p-ew-nyN">
+                                <rect key="frame" x="205" y="413" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="udb-jJ-CWD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVS-x7-KJq">
+                                <rect key="frame" x="25" y="503" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZ0-xu-IkD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRQ-j3-LTk">
+                                <rect key="frame" x="115" y="503" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vJ2-SG-rFF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbs-7K-Dci">
+                                <rect key="frame" x="205" y="503" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cxm-4Y-fZi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OM4-xf-BFM">
+                                <rect key="frame" x="25" y="593" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UEs-EX-n3X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tja-kC-BNZ">
+                                <rect key="frame" x="115" y="593" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RYg-K8-BLd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQH-Ax-m2r">
+                                <rect key="frame" x="205" y="593" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDE-4M-fsK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APh-EP-See">
+                                <rect key="frame" x="205" y="683" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74405078719999995" green="0.91435587409999997" blue="0.91114766199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hIk-U7-ALL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpM-8w-Uoj">
+                                <rect key="frame" x="205" y="325" width="160" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.023786017671227455" green="0.60181665420532227" blue="0.96977704763412476" alpha="0.095562784561258302" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="0.00030979057191871107" green="0.5379338264465332" blue="0.99339503049850464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ch-c1-FYZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hp2-cy-bQp">
+                                <rect key="frame" x="295" y="413" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53661710023880005" green="0.88593965768814087" blue="0.91423845291137695" alpha="0.25060519793175706" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R0P-4L-xNU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Q3-Vv-PJh">
+                                <rect key="frame" x="295" y="503" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53661710023880005" green="0.88593965768814087" blue="0.91423845291137695" alpha="0.25060519793175706" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jxa-Oz-C91"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qck-9t-mLb">
+                                <rect key="frame" x="295" y="593" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53661710023880005" green="0.88593965768814087" blue="0.91423845291137695" alpha="0.25060519793175706" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="x"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fa3-Is-eL0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0p-Zx-3T9">
+                                <rect key="frame" x="25" y="683" width="160" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71638956394461062" green="0.8803632993890782" blue="0.87727435748575022" alpha="0.49344771429402939" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cSy-hy-R29"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukh-sQ-hfY">
+                                <rect key="frame" x="295" y="683" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53661710023880005" green="0.88593965768814087" blue="0.91423845291137695" alpha="0.25060519793175706" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="÷"/>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gwV-2m-W32"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oD4-NO-gfA">
+                                <rect key="frame" x="115" y="325" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.023786017671227455" green="0.60181665420532227" blue="0.96977704763412476" alpha="0.095562784561258302" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="⌫">
+                                    <color key="titleColor" red="0.00030979057191871107" green="0.5379338264465332" blue="0.99339503049850464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJl-Fa-a2T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFJ-vA-cLr">
+                                <rect key="frame" x="25" y="325" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.023786017671227455" green="0.60181665420532227" blue="0.96977704763412476" alpha="0.095562784561258302" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="AC">
+                                    <color key="titleColor" red="0.00030979057191871107" green="0.5379338264465332" blue="0.99339503049850464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="numpadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nrM-wg-tMS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8r-ry-rbj">
+                                <rect key="frame" x="16" y="98" width="349" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIV-ze-oc0">
+                                <rect key="frame" x="16" y="203" width="349" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.87253779172897339" green="0.94816714525222778" blue="0.96487671136856079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="O8r-ry-rbj" id="OVf-sd-hSy"/>
+                        <outlet property="resultLabel" destination="wIV-ze-oc0" id="tSq-Tw-Dav"/>
+                        <outletCollection property="buttons" destination="AFJ-vA-cLr" collectionClass="NSMutableArray" id="ldF-E1-mK4"/>
+                        <outletCollection property="buttons" destination="oD4-NO-gfA" collectionClass="NSMutableArray" id="AFx-90-LV6"/>
+                        <outletCollection property="buttons" destination="xpM-8w-Uoj" collectionClass="NSMutableArray" id="9SP-es-MYB"/>
+                        <outletCollection property="buttons" destination="Wt7-08-r9Y" collectionClass="NSMutableArray" id="vG6-xf-UvX"/>
+                        <outletCollection property="buttons" destination="OkF-jL-Ef0" collectionClass="NSMutableArray" id="IB3-pt-eQN"/>
+                        <outletCollection property="buttons" destination="G0p-ew-nyN" collectionClass="NSMutableArray" id="o32-Hz-Q0j"/>
+                        <outletCollection property="buttons" destination="hp2-cy-bQp" collectionClass="NSMutableArray" id="HZa-HQ-rL5"/>
+                        <outletCollection property="buttons" destination="MVS-x7-KJq" collectionClass="NSMutableArray" id="rCz-eH-37w"/>
+                        <outletCollection property="buttons" destination="WRQ-j3-LTk" collectionClass="NSMutableArray" id="XD9-9i-zqJ"/>
+                        <outletCollection property="buttons" destination="gbs-7K-Dci" collectionClass="NSMutableArray" id="vRL-Ia-s0V"/>
+                        <outletCollection property="buttons" destination="7Q3-Vv-PJh" collectionClass="NSMutableArray" id="OEv-b6-nPp"/>
+                        <outletCollection property="buttons" destination="OM4-xf-BFM" collectionClass="NSMutableArray" id="ZiX-RB-2Kb"/>
+                        <outletCollection property="buttons" destination="tja-kC-BNZ" collectionClass="NSMutableArray" id="dQc-n1-K6S"/>
+                        <outletCollection property="buttons" destination="CQH-Ax-m2r" collectionClass="NSMutableArray" id="HkJ-gn-XO4"/>
+                        <outletCollection property="buttons" destination="Qck-9t-mLb" collectionClass="NSMutableArray" id="NnA-dL-EDi"/>
+                        <outletCollection property="buttons" destination="V0p-Zx-3T9" collectionClass="NSMutableArray" id="D6H-PK-dzo"/>
+                        <outletCollection property="buttons" destination="APh-EP-See" collectionClass="NSMutableArray" id="yf6-ZC-4jH"/>
+                        <outletCollection property="buttons" destination="ukh-sQ-hfY" collectionClass="NSMutableArray" id="dv1-Um-Wgt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.846153846153847" y="-34.123222748815166"/>
+        </scene>
+    </scenes>
+</document>
